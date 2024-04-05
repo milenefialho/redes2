@@ -1,7 +1,7 @@
 import socket
 
 # Configurações do servidor
-HOST = 'localhost'
+HOST = 'servidor'
 PORT = 12345
 
 # Função para enviar requisições ao servidor e receber resultados

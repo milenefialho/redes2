@@ -2,7 +2,7 @@ import socket
 import math
 
 # Configurações do servidor
-HOST = 'localhost'
+HOST = '0.0.0.0'
 PORT = 12345
 
 # Função para calcular fatorial

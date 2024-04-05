@@ -1,0 +1,14 @@
+version: '3'
+services:
+  servidor:
+    build:
+      context: .
+      dockerfile: Dockerfile.srv
+    ports:
+      - "12345:12345"
+  cliente:
+    build:
+      context: .
+      dockerfile: Dockerfile.clt
+    depends_on:
+      - servidor
